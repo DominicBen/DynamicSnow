@@ -1,0 +1,10 @@
+^C:\REPOS\ABURN\USR\MODULES\DYNAMICSNOW\BUILD\CMAKEFILES\D2C903B8F9BAB0DE7DCCBD780C6AC682\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/repos/aburn/usr/modules/DynamicSnow/src -BC:/repos/aburn/usr/modules/DynamicSnow/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/repos/aburn/usr/modules/DynamicSnow/build/NewModule.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

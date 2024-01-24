@@ -1,0 +1,7 @@
+C:/repos/aburn/usr/modules/DynamicSnow/build/CMakeFiles/NewModule.dir
+C:/repos/aburn/usr/modules/DynamicSnow/build/CMakeFiles/RUN_TESTS.dir
+C:/repos/aburn/usr/modules/DynamicSnow/build/CMakeFiles/ALL_BUILD.dir
+C:/repos/aburn/usr/modules/DynamicSnow/build/CMakeFiles/ZERO_CHECK.dir
+C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/CMakeFiles/GTest_lib.dir
+C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/CMakeFiles/GTest.dir
+C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/CMakeFiles/RUN_TESTS.dir

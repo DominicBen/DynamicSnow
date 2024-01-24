@@ -1,0 +1,646 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "gtest/RelWithDebInfo/GTest.exe"
+		},
+		{
+			"path" : "gtest/RelWithDebInfo/GTest.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_libraries",
+			"TARGET_LINK_LIBRARIES",
+			"include_and_link_aburn_deps",
+			"add_dependencies",
+			"add_compile_options",
+			"set_compiler_settings",
+			"add_compile_definitions",
+			"TARGET_INCLUDE_DIRECTORIES",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"C:/repos/aburn/usr/include/cmake/aftr_module_load_GTest.cmake",
+			"gtest/CMakeLists.txt",
+			"C:/repos/aburn/usr/include/cmake/aftr_include_and_link_deps_for_usrModule_exe.cmake",
+			"C:/repos/aburn/usr/include/cmake/aftr_set_compiler_settings.cmake",
+			"C:/repos/aburn/usr/include/cmake/aftrModuleCMakeHelper.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 29,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 36,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 42,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 96,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 175,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 2
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 17,
+				"parent" : 15
+			},
+			{
+				"file" : 4,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 22,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 35,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 18
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 52,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 59,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 85,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 193,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 200,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 35,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 185,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 189,
+				"parent" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "/we4703"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "/we4701"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "/std:c++latest"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "/EHsc"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 21,
+					"define" : "AFTR_MSVC"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_ATOMIC_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_BZIP2_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_FILESYSTEM_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_IOSTREAMS_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_LOCALE_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_LOG_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_SYSTEM_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_THREAD_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_TIMER_NO_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOOST_ZLIB_NO_LIB"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_SILENCE_CXX23_ALIGNED_STORAGE_DEPRECATION_WARNING"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_WINDOWS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 22,
+					"path" : "C:/repos/libs/glew-2.1.0/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/repos/libs/freetype-2.9/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/repos/libs/gdal-3.0.4/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/repos/aburn/usr/modules/DynamicSnow/src"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/repos/aburn/usr/include/aftr"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/repos/libs/SDL2_image-2.0.5/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/repos/aburn/usr/include/external"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "C:/repos/libs/boost_1_80_0"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "C:/repos/libs/SDL2-2.0.20/include"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "C:/repos/libs/SDL2-2.0.20/include/SDL2"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "C:/repos/libs/assimp-5.0.1/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/repos/libs/fmt-9.0.0/include"
+				},
+				{
+					"backtrace" : 28,
+					"isSystem" : true,
+					"path" : "C:/repos/libs/eigen-3.4.0/include/eigen3"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "C:/repos/libs/googletest-release-1.11.10/googletest-distribution/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 14,
+			"id" : "GTest_lib::@0af4add9fe94340e763e"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "GTest::@0af4add9fe94340e763e",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "RelWithDebInfo\\GTest_lib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\repos\\aburn\\usr\\lib64\\AftrBurnerEngine_debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_regex-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_thread-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_filesystem-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_timer-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_date_time-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_system-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_chrono-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_atomic-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_iostreams-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_log-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_locale-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "glu32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\repos\\libs\\SDL2-2.0.20\\lib\\SDL2.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\repos\\libs\\SDL2_image-2.0.5\\lib\\x64\\SDL2_image.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\repos\\libs\\glew-2.1.0\\lib\\Release\\x64\\glew32s.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\repos\\libs\\freetype-2.9\\lib\\freetype.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\repos\\libs\\gdal-3.0.4\\lib\\gdal_i.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\repos\\libs\\assimp-5.0.1\\lib\\assimp-vc143-mtd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "C:\\repos\\libs\\fmt-9.0.0\\lib\\fmtd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\repos\\libs\\SDL2-2.0.20\\lib\\SDL2main.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_bzip2-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_zlib-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_regex-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_thread-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_filesystem-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_chrono-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\repos\\libs\\boost_1_80_0\\lib64-msvc-14.3\\libboost_atomic-vc143-mt-x64-1_80.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "advapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bcrypt.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "mswsock.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "psapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "secur32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "synchronization.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\repos\\libs\\googletest-release-1.11.10\\googletest-distribution\\lib\\gtest_main.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\repos\\libs\\googletest-release-1.11.10\\googletest-distribution\\lib\\gtest.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "GTest",
+	"nameOnDisk" : "GTest.exe",
+	"paths" : 
+	{
+		"build" : "gtest",
+		"source" : "gtest"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "gtest/GLViewNewModule_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "gtest/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

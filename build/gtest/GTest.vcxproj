@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4C84F851-88CF-38CB-99F7-E4C18491969B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>GTest</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\repos\aburn\usr\modules\DynamicSnow\build\gtest\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GTest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\repos\aburn\usr\modules\DynamicSnow\build\gtest\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GTest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\repos\aburn\usr\modules\DynamicSnow\build\gtest\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GTest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\repos\aburn\usr\modules\DynamicSnow\build\gtest\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GTest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4703;4701</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;AFTR_MSVC;_WIN32_WINNT=0x0601;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_CXX23_ALIGNED_STORAGE_DEPRECATION_WARNING;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_TIMER_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_LOG_NO_LIB;BOOST_LOCALE_NO_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;AFTR_MSVC;_WIN32_WINNT=0x0601;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_CXX23_ALIGNED_STORAGE_DEPRECATION_WARNING;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_TIMER_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_LOG_NO_LIB;BOOST_LOCALE_NO_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\GTest_lib.lib;C:\repos\aburn\usr\lib64\AftrBurnerEngine_debug.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_regex-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_thread-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_timer-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_date_time-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_system-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_chrono-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_atomic-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_iostreams-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_log-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_locale-vc143-mt-gd-x64-1_80.lib;opengl32.lib;glu32.lib;C:\repos\libs\SDL2-2.0.20\lib\SDL2d.lib;C:\repos\libs\SDL2_image-2.0.5\lib\x64\SDL2_imaged.lib;C:\repos\libs\glew-2.1.0\lib\Release\x64\glew32s_debug.lib;C:\repos\libs\freetype-2.9\lib\freetype_debug.lib;C:\repos\libs\gdal-3.0.4\lib\gdal_i.lib;C:\repos\libs\assimp-5.0.1\lib\assimp-vc143-mtd.lib;C:\repos\libs\fmt-9.0.0\lib\fmtd.lib;C:\repos\libs\SDL2-2.0.20\lib\SDL2maind.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_bzip2-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_zlib-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_regex-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_thread-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_chrono-vc143-mt-gd-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_atomic-vc143-mt-gd-x64-1_80.lib;advapi32.lib;bcrypt.lib;mswsock.lib;psapi.lib;secur32.lib;synchronization.lib;ws2_32.lib;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\lib\gtest_maind.lib;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\lib\gtestd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/Debug/GTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/Debug/GTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4703;4701</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AFTR_MSVC;_WIN32_WINNT=0x0601;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_CXX23_ALIGNED_STORAGE_DEPRECATION_WARNING;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_TIMER_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_LOG_NO_LIB;BOOST_LOCALE_NO_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AFTR_MSVC;_WIN32_WINNT=0x0601;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_CXX23_ALIGNED_STORAGE_DEPRECATION_WARNING;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_TIMER_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_LOG_NO_LIB;BOOST_LOCALE_NO_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\GTest_lib.lib;C:\repos\aburn\usr\lib64\AftrBurnerEngine_debug.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_regex-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_thread-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_timer-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_date_time-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_system-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_chrono-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_atomic-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_iostreams-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_log-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_locale-vc143-mt-x64-1_80.lib;opengl32.lib;glu32.lib;C:\repos\libs\SDL2-2.0.20\lib\SDL2.lib;C:\repos\libs\SDL2_image-2.0.5\lib\x64\SDL2_image.lib;C:\repos\libs\glew-2.1.0\lib\Release\x64\glew32s.lib;C:\repos\libs\freetype-2.9\lib\freetype.lib;C:\repos\libs\gdal-3.0.4\lib\gdal_i.lib;C:\repos\libs\assimp-5.0.1\lib\assimp-vc143-mt.lib;C:\repos\libs\fmt-9.0.0\lib\fmt.lib;C:\repos\libs\SDL2-2.0.20\lib\SDL2main.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_bzip2-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_zlib-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_regex-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_thread-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_chrono-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_atomic-vc143-mt-x64-1_80.lib;advapi32.lib;bcrypt.lib;mswsock.lib;psapi.lib;secur32.lib;synchronization.lib;ws2_32.lib;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\lib\gtest_main.lib;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/Release/GTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/Release/GTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4703;4701</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AFTR_MSVC;_WIN32_WINNT=0x0601;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_CXX23_ALIGNED_STORAGE_DEPRECATION_WARNING;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_TIMER_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_LOG_NO_LIB;BOOST_LOCALE_NO_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AFTR_MSVC;_WIN32_WINNT=0x0601;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_CXX23_ALIGNED_STORAGE_DEPRECATION_WARNING;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_TIMER_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_LOG_NO_LIB;BOOST_LOCALE_NO_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\GTest_lib.lib;C:\repos\aburn\usr\lib64\AftrBurnerEngine_debug.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_regex-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_thread-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_timer-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_date_time-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_system-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_chrono-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_atomic-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_iostreams-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_log-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_locale-vc143-mt-x64-1_80.lib;opengl32.lib;glu32.lib;C:\repos\libs\SDL2-2.0.20\lib\SDL2.lib;C:\repos\libs\SDL2_image-2.0.5\lib\x64\SDL2_image.lib;C:\repos\libs\glew-2.1.0\lib\Release\x64\glew32s.lib;C:\repos\libs\freetype-2.9\lib\freetype.lib;C:\repos\libs\gdal-3.0.4\lib\gdal_i.lib;C:\repos\libs\assimp-5.0.1\lib\assimp-vc143-mtd.lib;C:\repos\libs\fmt-9.0.0\lib\fmtd.lib;C:\repos\libs\SDL2-2.0.20\lib\SDL2main.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_bzip2-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_zlib-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_regex-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_thread-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_chrono-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_atomic-vc143-mt-x64-1_80.lib;advapi32.lib;bcrypt.lib;mswsock.lib;psapi.lib;secur32.lib;synchronization.lib;ws2_32.lib;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\lib\gtest_main.lib;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/MinSizeRel/GTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/MinSizeRel/GTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4703;4701</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AFTR_MSVC;_WIN32_WINNT=0x0601;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_CXX23_ALIGNED_STORAGE_DEPRECATION_WARNING;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_TIMER_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_LOG_NO_LIB;BOOST_LOCALE_NO_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AFTR_MSVC;_WIN32_WINNT=0x0601;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_CXX23_ALIGNED_STORAGE_DEPRECATION_WARNING;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_TIMER_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_LOG_NO_LIB;BOOST_LOCALE_NO_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\repos\libs\glew-2.1.0\include;C:\repos\libs\freetype-2.9\include;C:\repos\libs\gdal-3.0.4\include;C:\repos\aburn\usr\modules\DynamicSnow\src;C:\repos\aburn\usr\include\aftr;C:\repos\libs\SDL2_image-2.0.5\include;C:\repos\aburn\usr\include\external;C:\repos\libs\boost_1_80_0;C:\repos\libs\SDL2-2.0.20\include;C:\repos\libs\SDL2-2.0.20\include\SDL2;C:\repos\libs\assimp-5.0.1\include;C:\repos\libs\fmt-9.0.0\include;C:\repos\libs\eigen-3.4.0\include\eigen3;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\GTest_lib.lib;C:\repos\aburn\usr\lib64\AftrBurnerEngine_debug.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_regex-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_thread-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_timer-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_date_time-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_system-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_chrono-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_atomic-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_iostreams-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_log-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_locale-vc143-mt-x64-1_80.lib;opengl32.lib;glu32.lib;C:\repos\libs\SDL2-2.0.20\lib\SDL2.lib;C:\repos\libs\SDL2_image-2.0.5\lib\x64\SDL2_image.lib;C:\repos\libs\glew-2.1.0\lib\Release\x64\glew32s.lib;C:\repos\libs\freetype-2.9\lib\freetype.lib;C:\repos\libs\gdal-3.0.4\lib\gdal_i.lib;C:\repos\libs\assimp-5.0.1\lib\assimp-vc143-mtd.lib;C:\repos\libs\fmt-9.0.0\lib\fmtd.lib;C:\repos\libs\SDL2-2.0.20\lib\SDL2main.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_bzip2-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_zlib-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_regex-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_thread-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_chrono-vc143-mt-x64-1_80.lib;C:\repos\libs\boost_1_80_0\lib64-msvc-14.3\libboost_atomic-vc143-mt-x64-1_80.lib;advapi32.lib;bcrypt.lib;mswsock.lib;psapi.lib;secur32.lib;synchronization.lib;ws2_32.lib;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\lib\gtest_main.lib;C:\repos\libs\googletest-release-1.11.10\googletest-distribution\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/RelWithDebInfo/GTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/RelWithDebInfo/GTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\repos\aburn\usr\modules\DynamicSnow\src\gtest\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/repos/aburn/usr/modules/DynamicSnow/src/gtest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/repos/aburn/usr/modules/DynamicSnow/src -BC:/repos/aburn/usr/modules/DynamicSnow/build --check-stamp-file C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\repos\aburn\usr\include\cmake\AftrBurnerEngine.cmake;C:\repos\aburn\usr\include\cmake\aftr_include_and_link_deps_for_usrModule_exe.cmake;C:\repos\aburn\usr\include\cmake\aftr_module_load_GTest.cmake;C:\repos\aburn\usr\include\cmake\aftr_set_compiler_settings.cmake;C:\repos\libs\eigen-3.4.0\share\eigen3\cmake\Eigen3Config.cmake;C:\repos\libs\eigen-3.4.0\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\repos\libs\fmt-9.0.0\lib\cmake\fmt\fmt-config-version.cmake;C:\repos\libs\fmt-9.0.0\lib\cmake\fmt\fmt-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\repos\aburn\usr\modules\DynamicSnow\build\gtest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/repos/aburn/usr/modules/DynamicSnow/src/gtest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/repos/aburn/usr/modules/DynamicSnow/src -BC:/repos/aburn/usr/modules/DynamicSnow/build --check-stamp-file C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\repos\aburn\usr\include\cmake\AftrBurnerEngine.cmake;C:\repos\aburn\usr\include\cmake\aftr_include_and_link_deps_for_usrModule_exe.cmake;C:\repos\aburn\usr\include\cmake\aftr_module_load_GTest.cmake;C:\repos\aburn\usr\include\cmake\aftr_set_compiler_settings.cmake;C:\repos\libs\eigen-3.4.0\share\eigen3\cmake\Eigen3Config.cmake;C:\repos\libs\eigen-3.4.0\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\repos\libs\fmt-9.0.0\lib\cmake\fmt\fmt-config-version.cmake;C:\repos\libs\fmt-9.0.0\lib\cmake\fmt\fmt-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\repos\aburn\usr\modules\DynamicSnow\build\gtest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/repos/aburn/usr/modules/DynamicSnow/src/gtest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/repos/aburn/usr/modules/DynamicSnow/src -BC:/repos/aburn/usr/modules/DynamicSnow/build --check-stamp-file C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\repos\aburn\usr\include\cmake\AftrBurnerEngine.cmake;C:\repos\aburn\usr\include\cmake\aftr_include_and_link_deps_for_usrModule_exe.cmake;C:\repos\aburn\usr\include\cmake\aftr_module_load_GTest.cmake;C:\repos\aburn\usr\include\cmake\aftr_set_compiler_settings.cmake;C:\repos\libs\eigen-3.4.0\share\eigen3\cmake\Eigen3Config.cmake;C:\repos\libs\eigen-3.4.0\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\repos\libs\fmt-9.0.0\lib\cmake\fmt\fmt-config-version.cmake;C:\repos\libs\fmt-9.0.0\lib\cmake\fmt\fmt-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\repos\aburn\usr\modules\DynamicSnow\build\gtest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/repos/aburn/usr/modules/DynamicSnow/src/gtest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/repos/aburn/usr/modules/DynamicSnow/src -BC:/repos/aburn/usr/modules/DynamicSnow/build --check-stamp-file C:/repos/aburn/usr/modules/DynamicSnow/build/gtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\repos\aburn\usr\include\cmake\AftrBurnerEngine.cmake;C:\repos\aburn\usr\include\cmake\aftr_include_and_link_deps_for_usrModule_exe.cmake;C:\repos\aburn\usr\include\cmake\aftr_module_load_GTest.cmake;C:\repos\aburn\usr\include\cmake\aftr_set_compiler_settings.cmake;C:\repos\libs\eigen-3.4.0\share\eigen3\cmake\Eigen3Config.cmake;C:\repos\libs\eigen-3.4.0\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\repos\libs\fmt-9.0.0\lib\cmake\fmt\fmt-config-version.cmake;C:\repos\libs\fmt-9.0.0\lib\cmake\fmt\fmt-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\repos\aburn\usr\modules\DynamicSnow\build\gtest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\repos\aburn\usr\modules\DynamicSnow\src\gtest\GLViewNewModule_test.cpp" />
+    <ClCompile Include="C:\repos\aburn\usr\modules\DynamicSnow\src\gtest\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\repos\aburn\usr\modules\DynamicSnow\build\ZERO_CHECK.vcxproj">
+      <Project>{764A5EEA-F0D4-3E8B-8D26-AD723F5ADCF1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\repos\aburn\usr\modules\DynamicSnow\build\gtest\GTest_lib.vcxproj">
+      <Project>{A2E0FAF0-58C5-3BFA-9DB9-0C8D34159077}</Project>
+      <Name>GTest_lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

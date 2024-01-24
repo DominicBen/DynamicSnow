@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\repos\aburn\usr\modules\DynamicSnow\src\GLSLSnowShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\aburn\usr\modules\DynamicSnow\src\GLViewNewModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\aburn\usr\modules\DynamicSnow\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\repos\aburn\usr\modules\DynamicSnow\src\GLSLSnowShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\aburn\usr\modules\DynamicSnow\src\GLViewNewModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\repos\aburn\usr\modules\DynamicSnow\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{725F07B4-1B9B-3D2F-9EEC-0680EF503676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3D1870EC-309F-3B79-9235-FEF89F92D333}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
